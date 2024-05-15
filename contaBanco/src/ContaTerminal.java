@@ -18,7 +18,7 @@ public class ContaTerminal {
         System.out.println("Conta: " + numeroConta);
 
         System.out.println("Digite o Nome do Cliente: ");
-        String nomeCliente = entrada.nextLine();
+        String nomeCliente = entrada.next();
         System.out.println("Nome do Cliente: " + nomeCliente);
 
         System.out.println("Digite o numero da Saldo: ");
